@@ -13,14 +13,14 @@
 #include <string.h>
 using namespace std;
 
-int     compare (string x,  string y,  int nx, int ny);
-char *  add     (string s1, string s2, int n1, int n2);
-char *  reduce  (string s1, string s2, int n1, int n2);
-char *  move    (string x,  int n);
+int compare(string x,  string y,  int nx, int ny);
+char * add (string s1, string s2, int n1, int n2);
+char * reduce (string s1, string s2, int n1, int n2);
+char * move (string x,  int n);
 
-bool    no      (bool  x);
-bool    et      (bool  x,  bool   y);
-bool    ou      (bool  x,  bool   y);
-bool    xou     (bool  x,  bool   y);
+bool no(bool x);
+bool et(bool x, bool y);
+bool ou(bool x, bool y);
+bool xou(bool x, bool y);
 
 #endif
